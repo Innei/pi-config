@@ -1,0 +1,25 @@
+{
+  "defaultProvider": "xiaomi-token-plan-sgp",
+  "defaultModel": "mimo-v2.5-pro",
+  "lastChangelogVersion": "0.73.0",
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "quietStartup": true,
+  "enableInstallTelemetry": true,
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-mermaid",
+    "npm:@tintinweb/pi-subagents",
+    "npm:@juicesharp/rpiv-btw",
+    "npm:glimpseui",
+    "npm:pi-token-speed",
+    "npm:@badliveware/pi-footer-framework",
+    "npm:@spences10/pi-themes",
+    "npm:pi-interactive-shell",
+    "npm:@tmustier/pi-tab-status",
+    "npm:@whynothugo/pi-notify"
+  ],
+  "defaultThinkingLevel": "high",
+  "theme": "catppuccin-mocha"
+}

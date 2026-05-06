@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "lineAnchors": {
+    "1": "spread"
+  },
+  "minGap": 1,
+  "maxGap": 8,
+  "items": {
+    "ext": {
+      "visible": true,
+      "line": 1
+    },
+    "stats": {
+      "line": 1
+    },
+    "context": {
+      "line": 1
+    }
+  },
+  "adapters": {}
+}

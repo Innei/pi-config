@@ -1,0 +1,11 @@
+# Sensitive
+auth.json
+
+# Session data
+sessions/
+
+# macOS
+.DS_Store
+
+# Runtime/temp
+subagent-schedules/
