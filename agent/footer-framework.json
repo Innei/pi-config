@@ -1,21 +1,48 @@
 {
   "enabled": true,
   "lineAnchors": {
-    "1": "spread"
+    "1": "spread",
+    "2": "right"
   },
-  "minGap": 1,
-  "maxGap": 8,
+  "minGap": 2,
+  "maxGap": 16,
   "items": {
     "ext": {
       "visible": true,
-      "line": 1
+      "line": 2
     },
     "stats": {
       "line": 1
     },
     "context": {
-      "line": 1
+      "line": 2
+    },
+    "model": {
+      "line": 1,
+      "zone": "right"
+    },
+    "branch": {
+      "line": 1,
+      "before": "stats",
+      "zone": "left",
+      "visible": false
+    },
+    "cwd": {
+      "before": "branch",
+      "line": 1,
+      "zone": "left"
     }
   },
-  "adapters": {}
+  "adapters": {
+    "cwd": {
+      "source": "pi",
+      "key": "cwd",
+      "template": "{{ pi.cwd | compactPath: 20, 1 }}{{ pi.branch.label }}"
+    },
+    "branch": {
+      "source": "pi",
+      "key": "branch",
+      "template": "{{ pi.branch.label }}"
+    }
+  }
 }
